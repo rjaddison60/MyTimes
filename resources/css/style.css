@@ -9,15 +9,36 @@ header {
   border-bottom: 1px solid black;
   }
 
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 35px;
+    align-content: space-between;
+    justify-content: flex-end;
+  }
+
+  h1 {
+    display: inline-flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: MediumAquaMarine;
+    margin: auto 10px;
+    vertical-align: middle;
+    justify-content: flex-start;
+  }
+
 div {
   border: 1px solid black
 }
+
 .logo {
   padding-left: 35px;
   display: flex;
   vertical-align: middle;
   flex-grow: 2;
 }
+
 .container {
   display: flex;
   width: 1250px;
@@ -32,11 +53,50 @@ div {
   padding-right: 30px;
 }
 
+.lead-image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.lead-article {
+  display: flex;
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
+}
+
+.story2pic {
+  display: flex;
+  background-image: url(../images/img-story-2.png);
+  height: 300px;
+}
+
+.story3pic {
+  display: flex;
+  background-image: url(../images/img-story-3.png);
+  height: 300px;
+}
+
 .medium {
   display: flex;
   flex-direction: column;
   width: 300px;
   padding-right: 30px;
+}
+
+.cat-image {
+  display: flex;
+  background-image: url(../images/img-story-1.png);
+  height: 300px;
 }
 
 .small {
@@ -45,26 +105,13 @@ div {
   width: 240px;
 }
 
-h1 {
-  display: inline-flex;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: MediumAquaMarine;
-  margin: auto 10px;
-  vertical-align: middle;
-  justify-content: flex-start;
+.text {
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 35px;
-  align-content: space-between;
-  justify-content: flex-end;
-}
-
-span {
+/*span {
   display: inline-block;
   font-family: Verdana;
   font-size: 14px;
@@ -72,4 +119,4 @@ span {
   color: black;
   vertical-align: middle;
   padding-left: 30px;
-}
+}*/
