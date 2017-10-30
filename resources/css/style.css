@@ -9,10 +9,40 @@ header {
   border-bottom: 1px solid black;
   }
 
-div.logo {
+div {
+  border: 1px solid black
+}
+.logo {
   padding-left: 35px;
   display: flex;
   vertical-align: middle;
+  flex-grow: 2;
+}
+.container {
+  display: flex;
+  width: 1250px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  padding-right: 30px;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-right: 30px;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
 }
 
 h1 {
@@ -28,7 +58,6 @@ h1 {
 
 nav {
   display: flex;
-  flex-grow: 2;
   flex-wrap: wrap;
   padding-right: 35px;
   align-content: space-between;
